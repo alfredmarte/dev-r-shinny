@@ -1,20 +1,80 @@
-# Ignore R-specific files
-.Rhistory
-.RData
-.Rproj.user/
-.Rproj
-.Renviron
-.Rprofile
-
-# Ignore renv library files (optional)
-renv/library/
-renv/cache/
-
-# Ignore shiny logs and temporary files
-.Rapp.history
-.shiny_app_logs/
-app.log
-
-# Ignore OS-specific files
+# Ignore macOS system files
 .DS_Store
-Thumbs.db
+.AppleDouble
+.Spotlight-V100
+.Trashes
+.Trash
+.localized
+.CFUserTextEncoding
+
+# Ignore user-specific configuration files
+.bash_history
+.bash_profile
+.bashrc
+.zsh_history
+.zshrc
+.gitconfig
+.gitignore_global
+
+# Ignore SSH and GPG-related files
+.ssh/
+.gnupg/
+
+# Ignore configuration and cache directories
+.config/
+.cache/
+.ipynb_checkpoints/
+.local/
+.matplotlib/
+.vscode/
+.idea/
+
+# Ignore common application directories
+.AndroidStudio*
+.flutter/
+.gradle/
+.node-gyp/
+.npm/
+.DartServer/
+.pub-cache/
+.rustup/
+.cargo/
+
+# Ignore folders in user home directory
+/Applications/
+/Documents/
+/Desktop/
+/Downloads/
+/Library/
+/Movies/
+/Music/
+/Pictures/
+/Public/
+/Sites/
+
+# Ignore system backup files
+**/*.swp
+**/*.swo
+**/*~
+**/.DS_Store
+**/._*
+**/.Trash/
+
+# Ignore Python, R, and Jupyter notebooks specific files
+**/__pycache__/
+**/*.py[cod]
+*.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+
+# Ignore package manager lock files if not using a specific lock strategy
+package-lock.json
+yarn.lock
+**/.Rproj.user/
+
+# Ignore log files
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
