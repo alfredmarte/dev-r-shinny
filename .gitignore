@@ -1,0 +1,20 @@
+# Ignore R-specific files
+.Rhistory
+.RData
+.Rproj.user/
+.Rproj
+.Renviron
+.Rprofile
+
+# Ignore renv library files (optional)
+renv/library/
+renv/cache/
+
+# Ignore shiny logs and temporary files
+.Rapp.history
+.shiny_app_logs/
+app.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+/* Sidebar styling */
+.sidebar {
+  background-color: #343a40; /* Dark sidebar background */
+  color: #ffffff; /* White text color */
+  padding: 20px;
+  height: 100vh;
+}
+
+.nav-item .btn-link {
+  color: #ffffff;
+}
+
+.nav-item .btn-link.active {
+  background-color: #007bff; /* Highlight active tab */
+  color: #ffffff;
+}
+
+.main-content {
+  padding: 30px;
+}
+
+/* General styling for content */
+h3 {
+  color: #007bff; /* Primary color for headings */
+}
+
+body {
+  background-color: #f8f9fa; /* Light background */
+}
